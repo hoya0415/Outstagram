@@ -8,28 +8,25 @@
           </div>
           <div class="logos-1">
             <div class="logos-2">
-              <router-link to="/"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/2919/2919516.png" alt=""></router-link>
+              <router-link to="/home"><b-icon icon="house" scale="1.5"></b-icon></router-link>
               <router-link to="/"><img class="logo" src="https://cdn-icons.flaticon.com/png/512/880/premium/880557.png?token=exp=1636883505~hmac=beac2f34878af75e3e540b236caaee9d" alt=""></router-link>
-              <router-link to="/"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/875/875068.png" alt=""></router-link>
-              <router-link to="/"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/2948/2948031.png" alt=""></router-link>
-              <router-link to="/"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/812/812327.png" alt=""></router-link>
-              <router-link to="/"><img class="logo" src="https://cdn-icons.flaticon.com/png/512/3024/premium/3024605.png?token=exp=1636888433~hmac=eaf432b5d65a01c12c4949dd1402b97f" alt=""></router-link>
+              <router-link to="/"><b-icon icon="plus-square" scale="1.5"></b-icon></router-link>
+              <router-link to="/"><b-icon icon="compass" scale="1.5"></b-icon></router-link>
+              <router-link to="/"><b-icon icon="heart" scale="1.5"></b-icon></router-link>
+
+              <router-link to="/"><b-icon icon="person-circle" scale="1.5"></b-icon></router-link>
             </div>
           </div>
         </div>
       </div>
     </nav>
-    <div class="article-list">
+    <div class="home">
       <router-link to="/"></router-link>
     </div>
+    <router-view/>
   </div>
 </template>
 
-<script>
-export default {
-  
-}
-</script>
 
 <style>
 #app {
@@ -37,7 +34,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #262626;
 }
 
 #nav {
@@ -53,15 +50,15 @@ export default {
   position: relative;
   vertical-align: baseline;
   position: fixed;
+  
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #262626;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
 }
 .main-logo {
   width: 103px;
@@ -74,6 +71,8 @@ export default {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: #ffffff;
+  position: fixed;
 }
 .nav_3 {
   height: 54px;
@@ -100,7 +99,6 @@ export default {
   overflow: hidden;
   cursor: pointer;
   white-space: nowrap;
-  margin-left: 20px;
 }
 .logos-1 {
   display: flex;
@@ -119,7 +117,8 @@ export default {
   flex-direction: row;
   align-items: center;
 }
-.article-list {
-  
+.logos-2 > * {
+  margin-left: 20px;
 }
+
 </style>
