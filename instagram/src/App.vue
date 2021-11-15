@@ -4,7 +4,7 @@
       <div class="nav_2">
         <div class="nav_3"> 
           <div class="main-logo-1">
-            <img class="main-logo" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png" alt="Kitten">
+            <a href="#"><img class="main-logo" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png"></a>
           </div>
           <div class="logos-1">
             <div class="logos-2">
@@ -14,15 +14,22 @@
               <router-link to="/"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/2948/2948031.png" alt=""></router-link>
               <router-link to="/"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/812/812327.png" alt=""></router-link>
               <router-link to="/"><img class="logo" src="https://cdn-icons.flaticon.com/png/512/3024/premium/3024605.png?token=exp=1636888433~hmac=eaf432b5d65a01c12c4949dd1402b97f" alt=""></router-link>
-
             </div>
           </div>
         </div>
       </div>
     </nav>
-    <router-view/>
+    <div class="article-list">
+      <router-link to="/"></router-link>
+    </div>
   </div>
 </template>
+
+<script>
+export default {
+  
+}
+</script>
 
 <style>
 #app {
@@ -45,7 +52,7 @@
   margin: 0;
   position: relative;
   vertical-align: baseline;
-  
+  position: fixed;
 }
 
 #nav a {
@@ -57,8 +64,8 @@
   color: #42b983;
 }
 .main-logo {
-  max-width: 100%;
-  max-height: 100%;
+  width: 103px;
+  height: 29px;
   object-fit: contain;
 }
 .nav_2 {
@@ -111,5 +118,8 @@
   padding-left: 0;
   flex-direction: row;
   align-items: center;
+}
+.article-list {
+  
 }
 </style>
