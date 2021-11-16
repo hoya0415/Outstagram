@@ -4,12 +4,12 @@
       <div class="nav_2">
         <div class="nav_3"> 
           <div class="main-logo-1">
-            <a href="#"><img class="main-logo" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png"></a>
+            <a href="#"><img class="main-logo" :src="require('@/assets/insta_logo.png')"></a>
           </div>
           <div class="logos-1">
             <div class="logos-2">
               <router-link to="/home"><b-icon icon="house" scale="1.5"></b-icon></router-link>
-              <router-link to="/"><img class="logo" src="https://cdn-icons.flaticon.com/png/512/880/premium/880557.png?token=exp=1636883505~hmac=beac2f34878af75e3e540b236caaee9d" alt=""></router-link>
+              <router-link to="/"><img class="logo" :src="require('@/assets/paper_plane_icon.png')"></router-link>
               <router-link to="/"><b-icon icon="plus-square" scale="1.5"></b-icon></router-link>
               <router-link to="/"><b-icon icon="compass" scale="1.5"></b-icon></router-link>
               <router-link to="/"><b-icon icon="heart" scale="1.5"></b-icon></router-link>

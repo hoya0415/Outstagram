@@ -29,7 +29,8 @@ export default {
           profile_img: 'https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/255312829_463411148727922_3981182849482448762_n.webp.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_cat=110&_nc_ohc=nnrG5XtPKA0AX85Eu8p&edm=AP_V10EBAAAA&ccb=7-4&oh=11e009e88ae39d55c87073e11946e5f9&oe=6198C4EA&_nc_sid=4f375e%20640w',
           content: '우리집 드릴의 고롱소리였다',
           tags: '#고양이 #그림 #만화 #인스타툰 #일상툰 #주먹꾹 #웹툰' ,
-          img_url: 'https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/256405259_382712540220086_6279090665353943615_n.webp.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=3sVLlW7OyqgAX81JCk_&edm=AABBvjUBAAAA&ccb=7-4&oh=54e7b56a4a838c656c98e5186700bec4&oe=6198C9BD&_nc_sid=83d603',
+          // img_url: 'https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/256405259_382712540220086_6279090665353943615_n.webp.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=3sVLlW7OyqgAX81JCk_&edm=AABBvjUBAAAA&ccb=7-4&oh=54e7b56a4a838c656c98e5186700bec4&oe=6198C9BD&_nc_sid=83d603',
+          img_url: 'https://picsum.photos/600/300/?image=1',
           like_cnt: '1,183',
           created: '4시간'
         },

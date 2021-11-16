@@ -3,7 +3,7 @@
     <div class="article-box-bar">
       <div class="article-box-bar-content">
         <div class="canvas">
-          <img :src="require('../assets/proImg' + article.id + '.jpg')">
+          <img :src="require('@/assets/proImg' + article.id + '.jpg')">
         </div>
         <p class="nickname">{{ article.nickname }}</p>
         <div class="option-dots">
@@ -12,14 +12,14 @@
       </div>
     </div>
     <div class="image">
-      <img :src="require('../assets/img' + article.id + '.jpg')">
+      <!-- <img :src="require('../assets/img' + article.id + '.jpg')"> -->
+      <img :src="article.img_url">
     </div>
     <div class="article-content">
       <div class="icons">
         <b-icon icon="heart" scale="1.5"></b-icon>
         <b-icon icon="chat" scale="1.5"></b-icon>
-        <img class="icon" src="https://cdn-icons.flaticon.com/png/512/880/premium/880557.png?token=exp=1636883505~hmac=beac2f34878af75e3e540b236caaee9d" alt="">
-
+        <img class="icon" :src="require('@/assets/paper_plane_icon.png')">
         <b-icon icon="bookmark" scale="1.5"></b-icon>
       </div>
       <div>
