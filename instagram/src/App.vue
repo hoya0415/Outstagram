@@ -50,7 +50,7 @@
   position: relative;
   vertical-align: baseline;
   position: fixed;
-  
+  z-index: 999;
 }
 
 #nav a {
